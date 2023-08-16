@@ -9,6 +9,7 @@ on:
   create:
     paths-ignore:
     - '**.md'
+  workflow_dispatch:
 
 jobs:
   Build:
