@@ -9,7 +9,7 @@ if [ "x${API_TOKEN}" = "x" ]; then
 fi
 
 if [ "x${API_ENDPOINT}" = "x" ]; then
-  API_ENDPOINT='https://app.avh.arm.com/api'
+  API_ENDPOINT='https://enterprise.app.avh.arm.com/api'
 fi
 
 
