@@ -1,7 +1,7 @@
 #! /bin/bash
 set -e
 if [ "x${API_ENDPOINT}" = "x" ]; then
-  API_ENDPOINT='https://app.avh.arm.com/api'
+  API_ENDPOINT='https://enterprise.app.avh.arm.com/api'
 fi
 
 rm -f /opt/build/IOT_HTTP_WebServer/STM32CubeIDE/Debug/IOT_HTTP_WebServer.elf
